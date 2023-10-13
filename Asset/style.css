@@ -2,6 +2,7 @@ body{
     background-color: rgba(0, 0, 0, 0.945);
 
 }
+/* content style */
 .content {
   position: relative;
   margin: 100px auto;
@@ -10,11 +11,13 @@ body{
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   
 }
+/* image style */
 .image img {
   width: 700px;
   height: 400px;
   object-fit: cover;
 }
+/* right and left arrows */
 .icon .fa-solid {
   position: absolute;
   font-size: 70px;
@@ -29,6 +32,7 @@ body{
   top: 200px;
   right: 25px;
 }
+/* date and time info style */
 .info {
   background-color: rgba(24, 148, 160, 0.8);
   position: absolute;
@@ -56,6 +60,7 @@ body{
   color: #fff;
   background-color:rgb(14, 14, 14) ;
 }
+/* .content hover */
 .content:hover {
     position: relative;
     margin: 100px auto;
@@ -63,6 +68,7 @@ body{
     height: 500px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     transition: 1s;
+  cursor: pointer;
     
   }
   
